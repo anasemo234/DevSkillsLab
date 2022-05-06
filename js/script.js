@@ -9,8 +9,8 @@ $('button').click(function(){
 })
 
 
-$('all-skill').on('click', 'button', function(){
-    $(this).closest('ul').fadeOut(2000, function (){
+$('#new-skill').on('click', 'button', function(){
+    $(this).closest('li').fadeOut(200, function (){
         $(this).remove()
     })
 })
